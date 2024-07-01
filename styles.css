@@ -1,0 +1,102 @@
+/* styles.css */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f0f8ff;
+}
+
+.navbar {
+    transition: background-color 0.3s;
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+    color: #ff69b4 !important;
+}
+
+.hero-section {
+    background: linear-gradient(to right, #ff69b4, #ff1493);
+    padding: 100px 0;
+    color: white;
+    animation: fadeIn 2s;
+}
+
+.hero-section h1 {
+    font-size: 3em;
+}
+
+.hero-section .btn-primary {
+    background-color: #ff4500;
+    border: none;
+}
+
+.hero-section .btn-primary:hover {
+    background-color: #ff6347;
+}
+
+section {
+    padding: 60px 0;
+}
+
+.benefit-box {
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s;
+}
+
+.benefit-box:hover {
+    transform: translateY(-10px);
+}
+
+.benefit-box i {
+    color: #ff69b4;
+}
+
+footer {
+    background-color: #333;
+}
+
+footer p {
+    margin: 0;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    color: #ff69b4;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #ff1493;
+}
+
+.img-reduzida {
+    width: 40%; /* Reduzido para 40% do tamanho original */
+    height: auto;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Estilos para a seção de pagamento */
+#pagamento .btn-pink-600 {
+    background-color: #ff69b4;
+    color: white;
+}
+
+#pagamento .btn-pink-600:hover {
+    background-color: #ff1493;
+}
+
+#pagamento .btn-success {
+    background-color: #32cd32;
+    border: none;
+}
+
+#pagamento .btn-success:hover {
+    background-color: #228b22;
+}
